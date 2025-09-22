@@ -165,7 +165,7 @@ const Contact: React.FC = () => {
               © 2025 NOCTOVEX. تمامی حقوق محفوظ است.
             </p>
             <p className="text-sm text-gray-600">
-              ساخته شده با ❤️ و تکنولوژی‌های پیشرفته وب
+              ساخته شده توسط تیم NOCTOVEX
             </p>
           </div>
         </div>
