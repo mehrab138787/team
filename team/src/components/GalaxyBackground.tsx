@@ -38,7 +38,7 @@ const GalaxyBackground: React.FC = () => {
     const mouse = { x: 0, y: 0 };
 
     // Enhanced Galaxy Spiral Particles
-    const galaxyParticleCount = 25000;
+    const galaxyParticleCount = 8000;
     const galaxyPositions = new Float32Array(galaxyParticleCount * 3);
     const galaxyColors = new Float32Array(galaxyParticleCount * 3);
     const galaxySizes = new Float32Array(galaxyParticleCount);
@@ -171,7 +171,7 @@ const GalaxyBackground: React.FC = () => {
     scene.add(galaxyParticles);
 
     // Nebula clouds
-    const nebulaCount = 8000;
+    const nebulaCount = 3000;
     const nebulaPositions = new Float32Array(nebulaCount * 3);
     const nebulaColors = new Float32Array(nebulaCount * 3);
     const nebulaSizes = new Float32Array(nebulaCount);
@@ -249,7 +249,7 @@ const GalaxyBackground: React.FC = () => {
     scene.add(nebula);
 
     // Distant stars
-    const starCount = 5000;
+    const starCount = 1500;
     const starPositions = new Float32Array(starCount * 3);
     const starColors = new Float32Array(starCount * 3);
 
